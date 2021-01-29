@@ -22,10 +22,6 @@ body {
   margin: 0;
 }
 
-h1 {
-  letter-spacing: 1px;
-}
-
 .user-form {
   width: 90%;
   max-width: 800px;
@@ -58,10 +54,10 @@ h1 {
   background-color: var(--cardcolor);
   border-radius: 20px;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   padding: 3rem;
   margin: 0 1.5rem;
-  /* margin-bottom: 2rem; */
+  margin-bottom: 2rem;
   box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
     0 15px 40px rgba(0, 0, 0, 0.1);
 }
@@ -110,7 +106,7 @@ h1 {
 }
 
 footer {
-  /* margin-top: auto; */
+  /* margin-top: 1rem; */
   letter-spacing: 10px;
   text-transform: uppercase;
   font-size: 12px;
