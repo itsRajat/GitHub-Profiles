@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
 
 :root {
-  --bgcolor: #1e1e55;
-  --cardcolor: #3e1b77;
+  --bgcolor: #252566;
+  --cardcolor: #121235;
 }
 
 * {
@@ -37,6 +37,8 @@ body {
   font-size: 15px;
   margin-bottom: 2rem;
   color: #eee;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(0, 0, 0, 0.1);
 }
 
 .user-form input::placeholder {
@@ -56,6 +58,8 @@ body {
   padding: 3rem;
   margin: 0 1.5rem;
   /* margin-bottom: 2rem; */
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(0, 0, 0, 0.1);
 }
 
 .avatar {
